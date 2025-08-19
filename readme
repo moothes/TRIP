@@ -1,1 +1,15 @@
 The source code for our work submitted to journal.
+
+
+
+ ```
+ # Training
+ python main.py TRIP --task=[os/dfs/bcls]
+
+ # Test-time adaptation
+ python tta.py TRIP --task=[os/dfs/bcls] --test_set=[cohort_name]
+
+ # Testing
+ python test.py TRIP --task=[os/dfs/bcls]
+ 
+ ```
