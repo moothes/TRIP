@@ -4,7 +4,7 @@ The source code of our paper: "Development and validation of an artificial intel
 
 ### Preparing data
 
-You can prepare your pathology data following the steps described in []
+You can prepare your pathology data following the steps described in [this link](https://github.com/mahmoodlab/SurvPath).   
 After that, your should generate a ```.csv``` file to include the labels (TNBC/DFS/OS) and path to corresponding ```.pt``` file for the patients.
 
 ### Running 
