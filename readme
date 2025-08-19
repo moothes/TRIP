@@ -2,7 +2,8 @@ The source code for our work submitted to journal.
 
 
 
-```
+### Stage 1  
+```   
 # Training
 python main.py TRIP --task=[os/dfs/bcls]
 
@@ -11,5 +12,4 @@ python tta.py TRIP --task=[os/dfs/bcls] --test_set=[cohort_name]
 
 # Testing
 python test.py TRIP --task=[os/dfs/bcls]
- 
-```
+``` 
